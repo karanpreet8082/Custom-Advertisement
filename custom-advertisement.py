@@ -451,6 +451,7 @@ if __name__ == "__main__":
     # instance of a pre-trained frontal face detector
     # the facial landmark predictor
 
+
     detector = dlib.get_frontal_face_detector()
     predictor = dlib.shape_predictor(p)
     
